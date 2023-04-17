@@ -1,9 +1,11 @@
-Web Scraper para coletar informações de vagas no LinkedIn
-Este script em Python utiliza a biblioteca BeautifulSoup e a biblioteca Requests para coletar informações sobre vagas de emprego na plataforma LinkedIn. As informações coletadas incluem o título da vaga, a empresa que está contratando e a localização da vaga.
+Web Scraping - LinkedIn Jobs
+Esse projeto tem como objetivo realizar uma análise de vagas no LinkedIn na área de tecnologia da Informação para os cargos de Desenvolvimento e Análise de dados, visando quais são as tecnologias e frameworks que estão sendo mais solicitados aos candidatos, utilizando a técnica de Web Scraping para adquirir os dados para análise.
+
+Descrição do algoritmo
+O algoritmo realiza o Web Scraping da página de busca do LinkedIn e extrai as informações sobre o título da vaga, nome da empresa e localização da vaga. O resultado é salvo em um arquivo .csv
 
 Pré-requisitos
 Antes de utilizar o script, é necessário instalar as bibliotecas BeautifulSoup e Requests. Isso pode ser feito utilizando o seguinte comando:
-
 
 pip install beautifulsoup4 requests pandas
 
@@ -22,3 +24,6 @@ Ao final da execução do script, um arquivo CSV com as informações coletadas 
 
 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou um pull request para ajudar a melhorar o script.
+
+Dashboard
+Os dados obtidos por meio do Web Scraping foram tratados e utilizados para construir um dashboard no aplicativo Power BI. O dashboard contém informações sobre a quantidade de vagas disponíveis, as empresas que mais contratam e as habilidades mais exigidas.
